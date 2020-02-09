@@ -117,7 +117,7 @@ _patch_prebuild(develop)
 
 
 setup(
-    name="trezor",
+    name="trezor-mtns",
     version=find_version(),
     author="TREZOR",
     author_email="info@trezor.io",
@@ -125,7 +125,7 @@ setup(
     description="Python library for communicating with TREZOR Hardware Wallet",
     long_description="{}\n\n{}".format(read("README.md"), read("CHANGELOG.md")),
     long_description_content_type="text/markdown",
-    url="https://github.com/trezor/python-trezor",
+    url="https://github.com/omotenashicoin-project/python-trezor",
     packages=find_packages(),
     package_data={"trezorlib": ["coins.json"]},
     scripts=["trezorctl"],
